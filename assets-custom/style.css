@@ -1750,6 +1750,11 @@ p.help-block li {
      border-radius: 50%;
      outline: none !important;
 }
+
+.slider .slick-arrow:after {
+  margin-top: 12px;
+}
+
  .slick-arrow:after {
      content: "";
      display: inline-block;
@@ -1760,7 +1765,7 @@ p.help-block li {
      background-size: 16px 64px;
      width: 16px;
      height: 16px;
-     margin-top: 2px;
+     margin-top: 7px;
 }
  .slick-arrow.slick-next::after {
      background-position: 0 -48px;
