@@ -189,12 +189,16 @@ p.help-block li {
  .homepage-search-form .select2-container--default .select2-selection--single .select2-selection__arrow {
      margin: 10px 9px 0 0;
 }
+.slick-initialized .slick-slide .item-slick {
+  cursor: pointer;
+}
  .slick-slider-single .slick-arrow.slick-prev {
      left: 11px;
 }
  .slick-slider-single .slick-arrow.slick-next {
      right: 12px;
 }
+
  .recommended-slider .slick-arrow {
      bottom: auto;
      top: -51px;
