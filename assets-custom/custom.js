@@ -90,14 +90,14 @@ $(document).ready(function () {
 
 	/* web design */
 	$(function () {
-		$('#aniimated-thumbnials').lightGallery({
-			thumbnail: true,
-		});
+		// $('#animated-thumbnials').lightGallery({
+		// 	thumbnail: true,
+		// });
 
 		$('.slider-for').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
-			arrows: true,
+			arrows: false,
 			fade: true,
 			adaptiveHeight: true,
 			asNavFor: '.slider-nav'
@@ -144,14 +144,14 @@ $(document).ready(function () {
 	/* profile */
 
 	/* wireframe */
-	$('#aniimated-thumbnials').lightGallery({
-		thumbnail: true,
-	});
+	// $('#aniimated-thumbnials').lightGallery({
+	// 	thumbnail: true,
+	// });
 
 	$('.slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		arrows: true,
+		arrows: false,
 		fade: true,
 		adaptiveHeight: true,
 		asNavFor: '.slider-nav'
