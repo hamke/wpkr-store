@@ -1,4 +1,10 @@
-const url = 'https://www.wp-kr.com/store/data/auto-money-system/';
+if ( window.location.hostname == 'localhost' ) {
+  var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/auto-money-system/';
+  // console.log( 'Hostname : localhost' );
+} else {
+  var url = 'https://www.wp-kr.com/' + 'store/data/auto-money-system/';
+  // console.log( 'Hostname : XXXXXXXXXX' );
+}
 
 fetch(url)
 .then(res => res.json())
