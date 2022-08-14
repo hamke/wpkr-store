@@ -1320,6 +1320,21 @@ p.help-block li {
      margin: 0;
      font-weight: 700;
 }
+.main-page #content ol,
+.main-page #description ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+.main-page #content ul,
+.main-page #description ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+.main-page #content ul li,
+.main-page #description ul li {
+  list-style: initial;
+  padding: initial;
+}
  .profile-card .user-profile-image {
      background: #fff;
      padding: 25px;
