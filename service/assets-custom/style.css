@@ -197,9 +197,11 @@ p.help-block li {
   cursor: pointer;
   filter: brightness(0.8);
 }
-.slick-initialized .slick-slide.slick-current .item-slick,
-.slick-initialized .slick-slide .item-slick:hover {
+.slick-initialized .slick-slide.slick-current .item-slick {
   filter: brightness(0.95);
+}
+.slick-initialized .slick-slide .item-slick:hover {
+  filter: brightness(1.0);
 }
  .slick-slider-single .slick-arrow.slick-prev {
      left: 11px;
