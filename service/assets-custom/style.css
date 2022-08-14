@@ -98,8 +98,10 @@ Version: 1.0
      background-color: #d3ac2b;
      border-color: #d3ac2b;
 }
- .form-control, .btn, .custom-select {
-     font-size: 13px;
+ .form-control,
+ .btn,
+ .custom-select {
+     /* font-size: 13px; */
 }
 /* Extra CSS */
 p.help-block li {
