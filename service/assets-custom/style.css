@@ -188,7 +188,8 @@ p.help-block li {
 }
 .slick-initialized .slick-slide a,
 .slider-nav .item-slick img {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #dedede;
+  border-radius: 4px;
 }
 .slick-initialized .slick-slide .item-slick {
   cursor: pointer;
