@@ -63,5 +63,5 @@ fetch(url)
   let content = '<div>' + feed_provider.content + '</div>';
   // content += '</tbody></table></div>';
   document.getElementById('content').innerHTML = content;
-  console.log(price_deluxe);
+  // console.log(price_deluxe);
 })
