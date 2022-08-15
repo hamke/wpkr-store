@@ -1462,7 +1462,7 @@ p.help-block li {
      display: flex;
      justify-content: center;
      /* justify-content: space-between; */
-     min-height: 48px;
+     min-height: 2.8rem;
      font-weight: 700;
 }
  .main-page .tab-content h3 b {
@@ -1479,10 +1479,10 @@ p.help-block li {
 }
  .main-page .tab-content p {
      word-break: break-word;
-     font-size: 14px;
-     line-height: 140%;
+     font-size: 15px;
+     line-height: 1.5rem;
      margin-top: 10px;
-     margin-bottom: 40px;
+     margin-bottom: 1rem;
 }
  .main-page .tab-content .delivery {
      font-size: 14px;
@@ -1496,18 +1496,18 @@ p.help-block li {
 }
  .main-page .tab-content .features {
      list-style: none;
-     margin: 0 0 20px;
+     margin: 0 0 1.5rem;
 }
  .main-page .tab-content .features li.included {
-     color: #62646a;
+     /* color: #62646a; */
 }
  .main-page .tab-content .features li.included i {
      color: #a8977b;
 }
  .main-page .tab-content .features li {
-     font-size: 14px;
+     font-size: 15px;
      font-weight: 400;
-     color: #95979d;
+     /* color: #95979d; */
 }
  .main-page .tab-content .features li i {
      padding-right: 12px;
@@ -1551,6 +1551,11 @@ p.help-block li {
      font-weight: 700;
      margin: 0;
 }
+
+.main-page .left .tab-content h3 {
+    padding-bottom: 1.2rem;
+}
+
  .main-page .left .description p {
      font-size: 15px;
      color: #62646a;
