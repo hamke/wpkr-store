@@ -9,8 +9,12 @@ if ( window.location.hostname == 'localhost' ) {
 fetch(url)
 .then(res => res.json())
 .then(feed_provider => {
+  let price_standard = feed_provider.price_standard;
+  let price_deluxe = feed_provider.price_deluxe;
+  let price_premium = feed_provider.price_premium;
   let output =
     '<div>' + feed_provider.content + '</div>';
   // output += '</tbody></table></div>';
   document.getElementById('content').innerHTML = output;
+
 })

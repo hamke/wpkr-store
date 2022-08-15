@@ -252,16 +252,16 @@
 
                  <div class="service-packages d-block d-md-none mb-4">
                    <ul class="nav nav-tabs">
-                      <li><a data-toggle="tab" href="#mobile-basic">스탠다드</a></li>
-                      <li><a class="active" data-toggle="tab" href="#mobile-standard">디럭스</a></li>
+                      <li><a data-toggle="tab" href="#mobile-standard">스탠다드</a></li>
+                      <li><a class="active" data-toggle="tab" href="#mobile-deluxe">디럭스</a></li>
                       <li><a data-toggle="tab" href="#mobile-premium">프리미엄</a></li>
                    </ul>
                    <div class="tab-content">
-                      <div id="mobile-basic" class="tab-pane fade">
+                      <div id="mobile-standard" class="tab-pane fade">
                          <div class="header">
                             <h3>
                               <!-- <b class="title">10 Screens</b> -->
-                              <span class="price">390,000 원</span>
+                              <span class="price"><span id="price-standard">390,000</span> 원</span>
                               <span class="price-vat">(VAT 포함가)</span>
                             </h3>
                             <p>
@@ -293,11 +293,11 @@
                            </button>
                          </a>
                       </div>
-                      <div id="mobile-standard" class="tab-pane fade show active">
+                      <div id="mobile-deluxe" class="tab-pane fade show active">
                          <div class="header">
                             <h3>
                               <!-- <b class="title">20 Screens</b> -->
-                              <span class="price">1,100,000 원</span>
+                              <span class="price"><span id="price-deluxe">1,100,000</span> 원</span>
                               <span class="price-vat">(VAT 포함가)</span>
                             </h3>
                             <p>
@@ -329,7 +329,7 @@
                          <div class="header">
                             <h3>
                               <!-- <b class="title">30 Screens</b> -->
-                              <span class="price">2,200,000 원</span>
+                              <span class="price"><span id="price-premium">2,200,000</span> 원</span>
                               <span class="price-vat">(VAT 포함가)</span>
                             </h3>
                             <p>
@@ -379,16 +379,16 @@
 
                    <div class="service-packages d-none d-md-block">
                      <ul class="nav nav-tabs">
-                        <li><a data-toggle="tab" href="#basic">스탠다드</a></li>
-                        <li><a class="active" data-toggle="tab" href="#standard">디럭스</a></li>
+                        <li><a data-toggle="tab" href="#standard">스탠다드</a></li>
+                        <li><a class="active" data-toggle="tab" href="#deluxe">디럭스</a></li>
                         <li><a data-toggle="tab" href="#premium">프리미엄</a></li>
                      </ul>
                      <div class="tab-content">
-                        <div id="basic" class="tab-pane fade">
+                        <div id="standard" class="tab-pane fade">
                            <div class="header">
                               <h3>
                                 <!-- <b class="title">10 Screens</b> -->
-                                <span class="price">390,000 원</span>
+                                <span class="price"><span id="price-standard">390,000</span> 원</span>
                                 <span class="price-vat">(VAT 포함가)</span>
                               </h3>
                               <p>
@@ -420,11 +420,11 @@
                              </button>
                            </a>
                         </div>
-                        <div id="standard" class="tab-pane fade show active">
+                        <div id="deluxe" class="tab-pane fade show active">
                            <div class="header">
                               <h3>
                                 <!-- <b class="title">20 Screens</b> -->
-                                <span class="price">1,100,000 원</span>
+                                <span class="price"><span id="price-deluxe">1,100,000</span> 원</span>
                                 <span class="price-vat">(VAT 포함가)</span>
                               </h3>
                               <p>
@@ -456,7 +456,7 @@
                            <div class="header">
                               <h3>
                                 <!-- <b class="title">30 Screens</b> -->
-                                <span class="price">2,200,000 원</span>
+                                <span class="price"><span id="price-premium">2,200,000</span> 원</span>
                                 <span class="price-vat">(VAT 포함가)</span>
                               </h3>
                               <p>
