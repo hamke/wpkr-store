@@ -9,9 +9,14 @@ if ( window.location.hostname == 'localhost' ) {
 fetch(url)
 .then(res => res.json())
 .then(feed_provider => {
-  let price_standard = feed_provider.price_standard;
-  let price_deluxe = feed_provider.price_deluxe;
-  let price_premium = feed_provider.price_premium;
+  let price_standard_original = feed_provider.price_standard;
+  let price_standard = price_standard_original;
+
+  let price_deluxe_original = feed_provider.price_deluxe;
+  let price_deluxe = price_deluxe_original;
+
+  let price_premium_original = feed_provider.price_premium;
+  let price_premium = price_premium_original;
 
   let price_standard_list = document.querySelectorAll('.price-standard');
   let price_deluxe_list = document.querySelectorAll('.price-deluxe');
@@ -27,8 +32,8 @@ fetch(url)
     price_premium_list[i].innerHTML = price_premium.toLocaleString();
   }
 
-  let output = '<div>' + feed_provider.content + '</div>';
-  // output += '</tbody></table></div>';
-  document.getElementById('content').innerHTML = output;
-  // console.log(price_deluxe);
+  let content = '<div>' + feed_provider.content + '</div>';
+  // content += '</tbody></table></div>';
+  document.getElementById('content').innerHTML = content;
+  console.log(price_deluxe);
 })
