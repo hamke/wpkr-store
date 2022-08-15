@@ -3011,6 +3011,19 @@ p.help-block li {
  .dropdown-menu.delivery .fake-radio-wrapper label.fake-radio:last-child {
      margin: 0px;
 }
+
+body #back-to-top {
+  bottom: 55px;
+}
+
+body #chat-button {
+  bottom: 100px;
+}
+
+body #footer-fixed-cta .container {
+  background-color: #a8977b;
+}
+
 /* web design */
 /* responsive design */
  @media(max-width:1024px) {
@@ -3123,132 +3136,12 @@ p.help-block li {
      width: 100% !important;
 }
 
- @media(max-width:480px) {
-   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col, .col-auto, .col-xl, .col-xl-auto {
-     padding-right: 5px !important;
-     padding-left: 5px !important;
-   }
-   .main-page h2 {
-     padding: 0 0 5px;
-   }
- }
-
- @media (min-width: 0px) and (max-width: 767px) {
-     .container {
-         max-width: 100%;
-    }
-     .navbar-expand-lg .navbar-nav {
-         -ms-flex-direction: row;
-         flex-direction: row;
-    }
-     .navbar-nav .dropdown-menu {
-         position: absolute;
-         float: none;
-    }
-     .osahan-nav-top, .osahan-nav-mid {
-         padding: 9px 15px !important;
-    }
-     .navbar-toggler {
-         border: none;
-         padding: 0px;
-    }
-     .osahan-nav-mid .nav-link {
-         padding: 9px 10px !important;
-    }
-     .osahan-nav-mid .navbar-collapse {
-         position: absolute;
-         background: #fff;
-         top: 55px;
-         right: 0px;
-         left: 0px;
-         padding: 15px;
-         border-top: 1px solid #eaebec;
-         z-index: 9;
-    }
-     .osahan-nav-mid .navbar-collapse .navbar-nav {
-         flex-direction: column;
-    }
-     .osahan-nav-mid .navbar-collapse .navbar-nav .nav-link {
-         padding: 10px 0px !important;
-    }
-     .osahan-nav-mid .navbar-collapse .navbar-nav .dropdown-menu {
-         position: static;
-    }
-     .osahan-nav-top .nav-item.dropdown {
-         position: static;
-    }
-     .osahan-nav-top .nav-item .dropdown-menu {
-         width: calc(100% - 1.5rem);
-         left: 0;
-         right: 0;
-         margin: auto;
-    }
-     .osahan-nav-top .dropdown-menu {
-         margin: 0px;
-    }
-     .footer-list {
-         width: 100%;
-         text-align: center;
-         margin-bottom: 36px;
-    }
-     .homepage-search-title {
-         text-align: center;
-    }
-     .testimonial {
-        display: unset !important;
-        flex-direction: unset;
-        background: #fff;
-        align-items: unset;
-    }
-     .testimonial .video-modal {
-         display: unset;
-         align-items: unset;
-    }
-     .testimonial .video-modal img {
-         width: 100%;
-         height: auto;
-    }
-     .testimonial .text-content {
-         background: #fff;
-         padding: 27px;
-    }
-     .popular {
-         display: none;
-    }
-     .homepage-search-block .col-lg-5 {
-         display: none;
-    }
-     .trusted-by {
-         display: none;
-    }
-     .guide {
-         margin-bottom: 15px;
-    }
-     .recommended a img.img-fluid {
-         height: auto;
-    }
-     .best-selling .col-md-3 {
-         margin-bottom: 5px;
-    }
-     .profile-card .user-profile-image .profile-name {
-         padding: 0px;
-    }
-     .profile-card .user-profile-image .profile-name .seller-link {
-         padding: 0px;
-    }
-     .profile-card .user-profile-image label img {
-         margin: 0 0 14px 0;
-    }
-     .profile-right.ml-auto {
-         position: absolute;
-         top: -47px;
-         right: 15px;
-    }
-     .osahan-login {
-         max-width: 300px;
-         margin: auto;
-    }
+@media only screen and (max-width: 959px) {
+  .desktop-only {
+    display: none !important;
+  }
 }
+
  @media (min-width: 768px) and (max-width: 1023px) {
      .container {
          max-width: 100%;
@@ -3364,4 +3257,149 @@ p.help-block li {
      .container {
          max-width: 100%;
     }
+}
+
+@media only screen and (min-width: 768px) {
+  .tablet-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+   }
+   #footer-fixed-cta {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+   }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+   }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        float: none;
+   }
+    .osahan-nav-top, .osahan-nav-mid {
+        padding: 9px 15px !important;
+   }
+    .navbar-toggler {
+        border: none;
+        padding: 0px;
+   }
+    .osahan-nav-mid .nav-link {
+        padding: 9px 10px !important;
+   }
+    .osahan-nav-mid .navbar-collapse {
+        position: absolute;
+        background: #fff;
+        top: 55px;
+        right: 0px;
+        left: 0px;
+        padding: 15px;
+        border-top: 1px solid #eaebec;
+        z-index: 9;
+   }
+    .osahan-nav-mid .navbar-collapse .navbar-nav {
+        flex-direction: column;
+   }
+    .osahan-nav-mid .navbar-collapse .navbar-nav .nav-link {
+        padding: 10px 0px !important;
+   }
+    .osahan-nav-mid .navbar-collapse .navbar-nav .dropdown-menu {
+        position: static;
+   }
+    .osahan-nav-top .nav-item.dropdown {
+        position: static;
+   }
+    .osahan-nav-top .nav-item .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        left: 0;
+        right: 0;
+        margin: auto;
+   }
+    .osahan-nav-top .dropdown-menu {
+        margin: 0px;
+   }
+    .footer-list {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 36px;
+   }
+    .homepage-search-title {
+        text-align: center;
+   }
+    .testimonial {
+       display: unset !important;
+       flex-direction: unset;
+       background: #fff;
+       align-items: unset;
+   }
+    .testimonial .video-modal {
+        display: unset;
+        align-items: unset;
+   }
+    .testimonial .video-modal img {
+        width: 100%;
+        height: auto;
+   }
+    .testimonial .text-content {
+        background: #fff;
+        padding: 27px;
+   }
+    .popular {
+        display: none;
+   }
+    .homepage-search-block .col-lg-5 {
+        display: none;
+   }
+    .trusted-by {
+        display: none;
+   }
+    .guide {
+        margin-bottom: 15px;
+   }
+    .recommended a img.img-fluid {
+        height: auto;
+   }
+    .best-selling .col-md-3 {
+        margin-bottom: 5px;
+   }
+    .profile-card .user-profile-image .profile-name {
+        padding: 0px;
+   }
+    .profile-card .user-profile-image .profile-name .seller-link {
+        padding: 0px;
+   }
+    .profile-card .user-profile-image label img {
+        margin: 0 0 14px 0;
+   }
+    .profile-right.ml-auto {
+        position: absolute;
+        top: -47px;
+        right: 15px;
+   }
+    .osahan-login {
+        max-width: 300px;
+        margin: auto;
+   }
+}
+
+@media only screen and (min-width: 481px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+
+@media(max-width:480px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col, .col-auto, .col-xl, .col-xl-auto {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+  .main-page h2 {
+    padding: 0 0 5px;
+  }
 }
