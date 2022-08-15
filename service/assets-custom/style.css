@@ -1484,6 +1484,16 @@ p.help-block li {
      margin-top: 10px;
      margin-bottom: 1rem;
 }
+
+.main-page .tab-content .demo-site {
+  background-color: #fff;
+  color: #888;
+  border: 1px solid #eee;
+}
+.main-page .tab-content .demo-site:hover {
+  background-color: #fff;
+  color: #99896f;
+}
  .main-page .tab-content .delivery {
      font-size: 14px;
      margin-bottom: 10px;
