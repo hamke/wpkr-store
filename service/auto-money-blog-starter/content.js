@@ -15,6 +15,8 @@ fetch(url)
   let output =
     '<div>' + feed_provider.content + '</div>';
   // output += '</tbody></table></div>';
+  document.getElementById('price-standard').innerHTML = price_standard;
+  document.getElementById('price-deluxe').innerHTML = price_deluxe;
+  document.getElementById('price-premium').innerHTML = price_premium;
   document.getElementById('content').innerHTML = output;
-
 })
