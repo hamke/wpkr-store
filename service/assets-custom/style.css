@@ -1477,11 +1477,18 @@ p.help-block li {
  .main-page .tab-content h3 span {
      font-size: 20px;
 }
+.main-page .tab-content h3 span.price-original,
 .main-page .tab-content h3 span.price-vat {
   margin-top: 5px;
   margin-left: 10px;
   font-size: 14px;
   opacity: 0.7;
+}
+.main-page .tab-content h3 span.price-standard-original,
+.main-page .tab-content h3 span.price-deluxe-original,
+.main-page .tab-content h3 span.price-premium-original {
+  margin-top: 5px;
+  font-size: 14px;
 }
  .main-page .tab-content p {
      word-break: break-word;
