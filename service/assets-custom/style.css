@@ -1327,6 +1327,11 @@ p.help-block li {
      margin: 0;
      font-weight: 700;
 }
+.main-page .title h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 800;
+}
 .main-page #content ol,
 .main-page #description ol {
   margin-bottom: 1.5rem;
@@ -3424,5 +3429,9 @@ body #footer-fixed-cta .container {
 
   .main-page h2 {
     padding: 0 0 5px;
+  }
+
+  .main-page .left .slider {
+    margin: 0 0 0.8rem;
   }
 }
