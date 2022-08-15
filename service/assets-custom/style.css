@@ -1444,7 +1444,7 @@ p.help-block li {
      border-bottom: 3px solid #f1f2f5;
      text-align: center;
      border-left: none;
-     padding: 16px;
+     padding: 12px 16px;
      -webkit-box-flex: 1;
      -ms-flex: 1;
      flex: 1;
