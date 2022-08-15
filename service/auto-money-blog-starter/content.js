@@ -18,13 +18,13 @@ fetch(url)
   let price_premium_list = document.querySelectorAll('.price-premium');
 
   for (let i = 0; i < price_standard_list.length; i++) {
-    price_standard_list[i].innerHTML = price_standard;
+    price_standard_list[i].innerHTML = price_standard.toLocaleString();
   }
   for (let i = 0; i < price_deluxe_list.length; i++) {
-    price_deluxe_list[i].innerHTML = price_deluxe;
+    price_deluxe_list[i].innerHTML = price_deluxe.toLocaleString();
   }
   for (let i = 0; i < price_premium_list.length; i++) {
-    price_premium_list[i].innerHTML = price_premium;
+    price_premium_list[i].innerHTML = price_premium.toLocaleString();
   }
 
   let output = '<div>' + feed_provider.content + '</div>';
