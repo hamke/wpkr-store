@@ -1462,7 +1462,7 @@ p.help-block li {
      display: flex;
      justify-content: center;
      /* justify-content: space-between; */
-     min-height: 2.8rem;
+     min-height: 2.5rem;
      font-weight: 700;
 }
  .main-page .tab-content h3 b {
@@ -1563,7 +1563,7 @@ p.help-block li {
 }
 
 .main-page .left .tab-content h3 {
-    padding-bottom: 1.2rem;
+    padding-bottom: 1.0rem;
 }
 
  .main-page .left .description p {
