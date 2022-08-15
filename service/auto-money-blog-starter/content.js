@@ -40,24 +40,24 @@ fetch(url)
     price_premium_list[i].innerHTML = price_premium.toLocaleString();
   }
 
-  for (let i = 0; i < price_standard_list.length; i++) {
-    price_standard_list[i].innerHTML = price_standard.toLocaleString();
+  for (let i = 0; i < summary_standard_list.length; i++) {
+    summary_standard_list[i].innerHTML = feed_provider.summary_standard;
   }
-  for (let i = 0; i < price_deluxe_list.length; i++) {
-    price_deluxe_list[i].innerHTML = price_deluxe.toLocaleString();
+  for (let i = 0; i < summary_deluxe_list.length; i++) {
+    summary_deluxe_list[i].innerHTML = feed_provider.summary_deluxe;
   }
-  for (let i = 0; i < price_premium_list.length; i++) {
-    price_premium_list[i].innerHTML = price_premium.toLocaleString();
+  for (let i = 0; i < summary_premium_list.length; i++) {
+    summary_premium_list[i].innerHTML = feed_provider.summary_premium;
   }
 
-  for (let i = 0; i < price_standard_list.length; i++) {
-    price_standard_list[i].innerHTML = price_standard.toLocaleString();
+  for (let i = 0; i < features_standard_list.length; i++) {
+    features_standard_list[i].innerHTML = feed_provider.features_standard;
   }
-  for (let i = 0; i < price_deluxe_list.length; i++) {
-    price_deluxe_list[i].innerHTML = price_deluxe.toLocaleString();
+  for (let i = 0; i < features_deluxe_list.length; i++) {
+    features_deluxe_list[i].innerHTML = feed_provider.features_deluxe;
   }
-  for (let i = 0; i < price_premium_list.length; i++) {
-    price_premium_list[i].innerHTML = price_premium.toLocaleString();
+  for (let i = 0; i < features_premium_list.length; i++) {
+    features_premium_list[i].innerHTML = feed_provider.features_premium;
   }
 
   let content = '<div>' + feed_provider.content + '</div>';
