@@ -1406,8 +1406,8 @@ p.help-block li {
 
 .main-page .star {
   position: absolute;
-  left: 6px;
-  padding-top: 5px;
+  left: 10px;
+  padding-top: 8px;
   color: #ffd75c;
   font-size: 1.2rem;
 }
