@@ -456,6 +456,9 @@ p.help-block li {
   background-size: cover;
   filter: opacity(0.4);
 }
+.hero-image .desc {
+  color: #d8d8d8;
+}
  .osahan-nav-top a.navbar-brand img {
      height: 38px;
 }
