@@ -1,3 +1,13 @@
+// function preloaderFadeOutInit(){
+//   $('.preloader').fadeOut('slow');
+//   $('body').attr('id','');
+// }
+// jQuery(window).on('load', function () {
+//   (function ($) {
+//   preloaderFadeOutInit();
+//   })(jQuery);
+// });
+
 $(document).ready(function() {
   "use strict";
 
