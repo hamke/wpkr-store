@@ -1400,7 +1400,8 @@ p.help-block li {
   transform: translate(-50%, -50%);
   color: #fff;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 1.8rem;
+  white-space: nowrap;
 }
 
  .profile-card .user-profile-image {
