@@ -1333,6 +1333,36 @@ p.help-block li {
   font-weight: 800;
   line-height: 2rem;
 }
+
+.main-page #content a {
+  color: #998A6F;
+}
+
+.main-page #content a:hover {
+  color: #816f53;
+}
+
+.main-page #content hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-page #content h2 {
+  font-size: 20px;
+  font-weight: 800;
+  padding-bottom: 25px;
+  line-height: 1.5;
+}
+
+.main-page #content h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.main-page #content p {
+  font-size: 14px;
+}
+
 .main-page #content ol,
 .main-page #description ol {
   margin-bottom: 1.5rem;
