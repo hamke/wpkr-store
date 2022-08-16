@@ -3504,4 +3504,8 @@ body #footer-fixed-cta .container {
   .main-page .left .slider {
     margin: 0 0 0.8rem;
   }
+
+  .main-page .notice-message {
+    font-size: 1rem;
+  }
 }
