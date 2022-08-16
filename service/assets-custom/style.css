@@ -1404,6 +1404,14 @@ p.help-block li {
   white-space: nowrap;
 }
 
+.main-page .star {
+  position: absolute;
+  left: 6px;
+  padding-top: 5px;
+  color: #ffd75c;
+  font-size: 1.2rem;
+}
+
  .profile-card .user-profile-image {
      background: #fff;
      padding: 25px;
@@ -3507,5 +3515,10 @@ body #footer-fixed-cta .container {
 
   .main-page .notice-message {
     font-size: 1.1rem;
+  }
+  .main-page .star {
+    left: 6px;
+    padding-top: 5px;
+    font-size: 1rem;
   }
 }
