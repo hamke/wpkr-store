@@ -251,7 +251,7 @@ $(document).ready(function() {
        jQuery('#footer-fixed-cta').fadeOut();
      }
 
-     if (jQuery(this).scrollTop() > 500) {
+     if (jQuery(this).scrollTop() > 480) {
 
        if ( jQuery('.main-page .title').hasClass('sticky-applied') ) {
 
