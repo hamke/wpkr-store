@@ -248,4 +248,17 @@ $(document).ready(function() {
      }
    });
 
+  if( window.outerWidth < 480 ) {
+    var observer = new IntersectionObserver(function(entries) {
+    // no intersection with screen
+    if(entries[0].intersectionRatio === 0)
+        document.querySelector(".main-page .title").classList.add("sticky-applied");
+      // fully intersects with screen
+      else if(entries[0].intersectionRatio === 1)
+        document.querySelector(".main-page .title").classList.remove("sticky-applied");
+    }, { threshold: [0,1] });
+
+    observer.observe(document.querySelector(".main-page .title"));
+  }
+
 });
