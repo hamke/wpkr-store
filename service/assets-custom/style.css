@@ -1397,6 +1397,7 @@ p.help-block li {
 
 .main-page #content a {
   color: #998A6F;
+  word-break: break-all;
 }
 
 .main-page #content a:hover {
