@@ -55,6 +55,10 @@ Version: 1.0
      padding: 0;
 }
 
+body .fa-spin {
+  animation: a 3s infinite linear;
+}
+
 /* body #stop-scrolling {
 height: 100% !important;
 overflow: hidden !important;
