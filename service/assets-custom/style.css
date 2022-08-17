@@ -64,6 +64,11 @@ body .fa-spin {
   animation: a 5s infinite linear;
 }
 
+body .mark,
+body mark {
+  background-color: #fff6ea;
+}
+
 /* body #stop-scrolling {
 height: 100% !important;
 overflow: hidden !important;
