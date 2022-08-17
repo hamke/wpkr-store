@@ -56,8 +56,8 @@ Version: 1.0
 }
 
 body .fa-spin {
-  -webkit-animation: a 3s infinite linear;
-  animation: a 3s infinite linear;
+  -webkit-animation: a 5s infinite linear;
+  animation: a 5s infinite linear;
 }
 
 /* body #stop-scrolling {
