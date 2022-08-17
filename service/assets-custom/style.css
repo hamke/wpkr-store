@@ -64,6 +64,15 @@ body .fa-spin {
   animation: a 5s infinite linear;
 }
 
+body .img-wrapper {
+
+}
+
+body .img-wrapper img {
+  width: 100%;
+  max-width: 800px;
+}
+
 body .mark,
 body mark {
   background-color: #fff6ea;
