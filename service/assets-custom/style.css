@@ -55,6 +55,10 @@ Version: 1.0
      padding: 0;
 }
 
+body {
+  padding-top: 3rem !important;
+}
+
 body .fa-spin {
   -webkit-animation: a 5s infinite linear;
   animation: a 5s infinite linear;
