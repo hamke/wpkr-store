@@ -3577,21 +3577,19 @@ body #footer-fixed-cta .container {
   body .main-page .title {
     position: -webkit-sticky;
     position: sticky;
-    /* top:50px; */
   }
 
   body .main-page .title.sticky-applied {
     /* position: sticky; */
-    top: -1px;
-    z-index: 999;
+    top: 50px;
+    width: 100vw;
+    height: 40px;
+    padding: 0 15px;
+    margin-left: -1.3rem;
     background-color: #fff;
     border-bottom: 1px solid #eee;
-    height: 40px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-    width: 100vw;
-    /* width: 100%; */
-    margin-left: -1.3rem;
-    padding: 55px 15px 45px;
+    z-index: 999;
   }
 
   body .main-page .title.sticky-applied h2 {
