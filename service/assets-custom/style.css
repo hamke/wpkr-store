@@ -2046,7 +2046,7 @@ p.help-block li {
   font-size: 0.8rem;
   opacity: 0.8;
 }
- .recommended .inner-slider .inner-wrapper .seller-name {
+.recommended .inner-slider .inner-wrapper .seller-name {
      display: flex;
      flex-flow: column;
      margin-left: 0px;
@@ -2061,6 +2061,10 @@ p.help-block li {
      color: #b2b2b2;
      font-weight: 300;
      font-size: 13px;
+}
+.recommended .inner-slider .inner-wrapper .seller-price {
+    font-size: 13px;
+    opacity: 0.8;
 }
  .recommended .inner-slider .inner-wrapper h3 {
      font-size: 13px;
