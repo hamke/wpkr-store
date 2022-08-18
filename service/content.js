@@ -35,9 +35,9 @@ var slugs = [
 for (var i = 0; i < slugs.length; i++) {
 
   if ( window.location.hostname == 'localhost' ) {
-    var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/' + slugs[i];
+    var url = 'http://localhost:8080/i/wp-kr/' + 'store/data/' + slugs[i] + '/';
   } else {
-    var url = 'https://www.wp-kr.com/' + 'store/data/' + slugs[i];
+    var url = 'https://www.wp-kr.com/' + 'store/data/' + slugs[i] + '/';
   }
 
   fetchData( slugs[i], url );
