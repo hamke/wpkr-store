@@ -3186,7 +3186,15 @@ body #chat-button {
 }
 
 body #footer-fixed-cta .container {
+  font-size: 15px;
   background-color: #a8977b;
+}
+
+body #footer-fixed-cta .container #service-title {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* web design */
@@ -3567,20 +3575,19 @@ body #footer-fixed-cta .container {
   }
 
   body #back-to-top {
-    bottom: 55px;
+    bottom: 80px;
   }
 
   body #chat-button {
-    bottom: 100px;
+    bottom: 125px;
   }
 
-  body .main-page .title {
+  /* body .main-page .title {
     position: -webkit-sticky;
     position: sticky;
-  }
+  } */
 
-  body .main-page .title.sticky-applied {
-    /* position: sticky; */
+  /* body .main-page .title.sticky-applied {
     top: 50px;
     width: 100vw;
     height: 40px;
@@ -3590,16 +3597,16 @@ body #footer-fixed-cta .container {
     border-bottom: 1px solid #eee;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     z-index: 999;
-  }
+  } */
 
-  body .main-page .title.sticky-applied h2 {
+  /* body .main-page .title.sticky-applied h2 {
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     padding-top: 4px;
     text-align:center;
-  }
+  } */
 
   .main-page h2 {
     padding: 0 0 5px;
