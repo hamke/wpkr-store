@@ -2050,6 +2050,7 @@ p.help-block li {
      display: flex;
      flex-flow: column;
      margin-left: 0px;
+     margin-bottom: 3px;
      line-height: 20px;
 }
  .recommended .inner-slider .inner-wrapper .seller-name a {
