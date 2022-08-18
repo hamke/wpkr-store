@@ -218,7 +218,7 @@ $(document).ready(function() {
     arrows: true,
     // autoplay: true,
     // autoplaySpeed: 3000,
-    focusOnSelect: true,
+    focusOnSelect: false,
     centerMode: true,
     variableWidth: true,
     responsive: [{
