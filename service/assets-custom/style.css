@@ -3261,6 +3261,18 @@ body #footer-fixed-cta .container #service-title {
     }
 }
 
+@media only screen and (min-width: 992px) {
+  .not-desktop-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
  @media(max-width:767px) {
 
     .home-logo {
@@ -3309,12 +3321,6 @@ body #footer-fixed-cta .container #service-title {
 }
  .select2-container {
      width: 100% !important;
-}
-
-@media only screen and (max-width: 959px) {
-  .desktop-only {
-    display: none !important;
-  }
 }
 
  @media (min-width: 768px) and (max-width: 1023px) {
