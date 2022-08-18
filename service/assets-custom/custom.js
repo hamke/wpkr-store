@@ -242,7 +242,6 @@ $(document).ready(function() {
 
   var service_title = jQuery('.main-page .sticky .title a').text();
   jQuery('#service-title').text(service_title);
-  // console.log(service_title);
 
 	jQuery(window).scroll(function () {
 
