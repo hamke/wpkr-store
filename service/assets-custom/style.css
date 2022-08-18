@@ -3193,6 +3193,7 @@ body #chat-button {
 body #footer-fixed-cta .container {
   font-size: 15px;
   background-color: #a8977b;
+  font-weight: 900;
 }
 
 body #footer-fixed-cta .container #service-title {
