@@ -22,7 +22,7 @@ $(document).ready(function() {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
+    fade: true,
     responsive: [{
         breakpoint: 1099,
         settings: {
@@ -49,7 +49,7 @@ $(document).ready(function() {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
+    fade: true,
     responsive: [{
         breakpoint: 1099,
         settings: {
@@ -75,7 +75,7 @@ $(document).ready(function() {
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
+    fade: true,
     responsive: [{
         breakpoint: 1099,
         settings: {
@@ -117,7 +117,7 @@ $(document).ready(function() {
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: true,
-      fade: false,
+      fade: true,
     });
 
 
@@ -127,7 +127,7 @@ $(document).ready(function() {
       asNavFor: '.slider-for',
       dots: false,
       arrows: true,
-      focusOnSelect: true,
+      focusOnSelect: false,
       variableWidth: true,
       responsive: [{
           breakpoint: 1099,
@@ -172,7 +172,7 @@ $(document).ready(function() {
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
+    fade: true,
     responsive: [{
         breakpoint: 767,
         settings: {
@@ -187,7 +187,7 @@ $(document).ready(function() {
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    fade: false,
+    fade: true,
     responsive: [{
         breakpoint: 1099,
         settings: {
@@ -216,7 +216,10 @@ $(document).ready(function() {
     asNavFor: '.slider-for',
     dots: false,
     arrows: true,
+    // autoplay: true,
+    // autoplaySpeed: 3000,
     focusOnSelect: true,
+    centerMode: true,
     variableWidth: true,
     responsive: [{
         breakpoint: 1099,
