@@ -79,7 +79,6 @@ body mark {
 }
 
 body .navbar #nav-menu-secondary {
-  display: none;
   white-space: nowrap;
   overflow: auto;
   text-align: center;
