@@ -258,40 +258,5 @@ $(document).ready(function() {
        jQuery('#nav-menu-secondary').fadeOut();
        jQuery('#footer-fixed-cta').fadeOut();
      }
-
-     // if (jQuery(this).scrollTop() > 510) {
-     //
-     //   if ( jQuery('.main-page .title').hasClass('sticky-applied') ) {
-     //
-     //     jQuery('.main-page .title').addClass('sticky-applied');
-     //   }
-     //
-     // } else {
-     //
-     //   jQuery('.main-page .title').removeClass('sticky-applied');
-     // }
    });
-
-  // if( window.outerWidth < 480 ) {
-  //
-  //   var observer = new IntersectionObserver(function(entries) {
-  //
-  //     // console.log(entries[0].intersectionRatio);
-  //     if(entries[0].intersectionRatio < 1) {
-  //
-  //       document.querySelector(".main-page .title").classList.add("sticky-applied");
-  //
-  //     } else {
-  //
-  //       // if ( jQuery(".main-page .title").hasClass("sticky-applied") ) {
-  //
-  //         document.querySelector(".main-page .title").classList.remove("sticky-applied");
-  //       // }
-  //     }
-  //   }, { threshold: [0,1] });
-  //
-  //   observer.observe(document.querySelector(".main-page .title"));
-  //
-  // }
-
 });
