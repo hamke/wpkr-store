@@ -78,6 +78,11 @@ body mark {
   background-color: #fff6ea;
 }
 
+body .navbar,
+body sidebar.navbar {
+  display: -webkit-flex;
+}
+
 body .navbar #nav-menu-secondary {
   white-space: nowrap;
   overflow: auto;
