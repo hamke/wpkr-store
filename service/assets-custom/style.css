@@ -103,6 +103,15 @@ body .navbar #nav-menu-secondary .menu-element {
   padding: 5px 8px;
 }
 
+body #service-intro,
+body #service-requirements,
+body #package-details {
+  scroll-margin-top: 30px;
+}
+body #service-faq {
+  scroll-margin-top: 10px;
+}
+
 /* body #stop-scrolling {
 height: 100% !important;
 overflow: hidden !important;
