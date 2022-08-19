@@ -78,6 +78,27 @@ body mark {
   background-color: #fff6ea;
 }
 
+body .navbar #nav-menu-secondary {
+  display: none;
+  white-space: nowrap;
+  overflow: auto;
+  text-align: center;
+  background-color: #a8977b;
+  font-size: 14px;
+}
+
+body .navbar #nav-menu-secondary a {
+  color: #fff;
+}
+
+body .navbar #nav-menu-secondary a:hover {
+  color: #fff;
+}
+
+body .navbar #nav-menu-secondary .menu-element {
+  padding: 5px 8px;
+}
+
 /* body #stop-scrolling {
 height: 100% !important;
 overflow: hidden !important;

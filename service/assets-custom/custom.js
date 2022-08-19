@@ -250,10 +250,12 @@ $(document).ready(function() {
 
      if ( jQuery(this).scrollTop() > 50 ) {
 
+       jQuery('#nav-menu-secondary').fadeIn();
        jQuery('#footer-fixed-cta').fadeIn();
 
      } else {
 
+       jQuery('#nav-menu-secondary').fadeOut();
        jQuery('#footer-fixed-cta').fadeOut();
      }
 
