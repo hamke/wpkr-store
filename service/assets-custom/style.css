@@ -3644,6 +3644,10 @@ body #footer-fixed-cta .container #service-title {
     bottom: 125px;
   }
 
+  body .sidebar #main-nav {
+    margin-top: 6rem;
+  }
+
   /* body .main-page .title {
     position: -webkit-sticky;
     position: sticky;
