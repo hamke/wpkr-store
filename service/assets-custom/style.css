@@ -112,22 +112,6 @@ body #service-faq {
   scroll-margin-top: 10px;
 } */
 
-body #service-intro:target:before,
-body #service-requirements:target:before,
-body #package-details:target:before {
-  content:"";
-  display:block;
-  height: 20px; /* fixed header height*/
-  margin: -20px 0 0; /* negative fixed header height */
-}
-
-body #service-faq:target:before {
-  content:"";
-  display:block;
-  height: 10px; /* fixed header height*/
-  margin: -10px 0 0; /* negative fixed header height */
-}
-
 /* body #stop-scrolling {
 height: 100% !important;
 overflow: hidden !important;
@@ -3642,6 +3626,22 @@ body #footer-fixed-cta .container #service-title {
 
   body #chat-button {
     bottom: 125px;
+  }
+
+  body #service-intro:target:before,
+  body #service-requirements:target:before,
+  body #package-details:target:before {
+    content:"";
+    display:block;
+    height: 20px; /* fixed header height*/
+    margin: -20px 0 0; /* negative fixed header height */
+  }
+
+  body #service-faq:target:before {
+    content:"";
+    display:block;
+    height: 10px; /* fixed header height*/
+    margin: -10px 0 0; /* negative fixed header height */
   }
 
   body .sidebar #main-nav {
