@@ -21,6 +21,7 @@ var slugs = [
   'auto-blog-newspic',
   'auto-export-store-starter',
   'auto-importer-blog',
+  'auto-money-blog-fb',
   'auto-money-blog-starter',
   'auto-money-blog-starter-adsense',
   'auto-money-blog-starter-cn',
