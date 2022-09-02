@@ -1507,7 +1507,7 @@ p.help-block li {
   font-size: 1.2rem;
 }
 
-.main-page .star-second {
+.main-page .star.star-second {
   left: 35px;
 }
 
@@ -3694,7 +3694,7 @@ body #footer-fixed-cta .container #service-title {
     padding-top: 5px;
     font-size: 1rem;
   }
-  .main-page .star-second {
+  .main-page .star.star-second {
     left: 25px;
   }
 }
