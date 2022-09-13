@@ -26,6 +26,7 @@ var slugs = [
   'auto-money-blog-starter-adsense',
   'auto-money-blog-starter-cn',
   'auto-money-blog-starter-no-adsense',
+  'auto-money-blog-video',
   'auto-redirect-link-converter',
   'auto-seller-ebook-store',
   'auto-seller-premium-articles',
