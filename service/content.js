@@ -14,6 +14,7 @@ function fetchData( slug_data, url_data ) {
 }
 
 var slugs = [
+  'auto-academy-starter',
   'auto-ads',
   'auto-affiliate-store-starter',
   'auto-blog-aliexpress',
