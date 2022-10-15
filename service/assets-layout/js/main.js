@@ -52,13 +52,13 @@ jQuery(document).ready(function() {
   });
 });
 
-jQuery(document).ready(function() {
-  jQuery(document).off('click.bs.tab.data-api', '[data-hover="tab"]');
-  jQuery(document).on('mouseenter.bs.tab.data-api', '[data-toggle="tab"], [data-hover="tab"]', function() {
-    jQuery(this).tab('show');
-  });
-  jQuery('[data-toggle="tooltip"]').tooltip()
-});
+// jQuery(document).ready(function() {
+//   jQuery(document).off('click.bs.tab.data-api', '[data-hover="tab"]');
+//   jQuery(document).on('mouseenter.bs.tab.data-api', '[data-toggle="tab"], [data-hover="tab"]', function() {
+//     jQuery(this).tab('show');
+//   });
+//   jQuery('[data-toggle="tooltip"]').tooltip()
+// });
 
 // /**
 //  * @param {string} url - The source image
