@@ -20,6 +20,7 @@ var slugs = [
   'auto-blog-aliexpress',
   'auto-blog-cp',
   'auto-blog-newspic',
+  'auto-community-starter',
   'auto-export-store-starter',
   'auto-importer-blog',
   'auto-money-blog-fb',
