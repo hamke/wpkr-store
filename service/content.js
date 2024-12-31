@@ -17,6 +17,7 @@ var slugs = [
   'auto-academy-starter',
   'auto-ads',
   'auto-affiliate-store-starter',
+  'auto-affiliate-system-starter',
   'auto-blog-aliexpress',
   'auto-blog-cp',
   'auto-blog-newspic',
