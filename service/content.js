@@ -24,6 +24,7 @@ var slugs = [
   'auto-community-starter',
   'auto-export-store-starter',
   'auto-importer-blog',
+  'auto-money-agency',
   'auto-money-blog-fb',
   'auto-money-blog-starter',
   'auto-money-blog-starter-adsense',
